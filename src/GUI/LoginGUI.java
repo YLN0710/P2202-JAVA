@@ -45,7 +45,7 @@ public class LoginGUI {
                 boolean islogin = false ;//是否成功登录,初始为失败
                 islogin = new LoginFUN().loginfun(type,username,password);
                 if(islogin&&type==0){
-                    userGUI.show();
+                    UserGUI.show();
                     LoginGUI.close();
                 }else if(islogin){
 
